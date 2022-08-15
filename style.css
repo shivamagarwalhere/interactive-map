@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+body
+{
+    display: flex;
+    background-color: #1b1d1f;
+
+}
+
+svg{
+    margin-top: 2%;
+    margin-left: 12%;
+}
+
+h1{
+    color: white;
+    font-size: 64px;
+    font-family: 'Inter';
+    margin-top: 20%;
+}
+svg path
+{
+    
+    fill: #242526;
+    stroke: #99a1a8;
+    stroke-width: .25;
+}
+
+svg path:hover {
+    fill: #3f4245;
+    transition: 1s;
+    cursor: pointer;
+}
+
+h3
+{
+    color: #99a1a8;
+}
+#RJ
+{
+    background-color: black;
+    width: 20%;
+    height: 250px;
+    color: white;
+    font-family: 'Inter';
+    border-radius: 15px 15px 15px 15px;
+    position: absolute;
+    margin-top: 14%;
+    margin-left: -25%;
+    padding: 20px;
+    opacity:0.85;
+}
+
+#IN-RJ:hover #RJ
+{
+    display: block;
+}
+
